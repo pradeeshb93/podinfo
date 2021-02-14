@@ -38,7 +38,7 @@ eksctl create cluster \
  
  * Get the worker node ip
  
- kubectl get node -o wide
+``` kubectl get node -o wide ```
  
  * Edit /etc/hosts and add entry for localhost to worker node ip
  * curl localhost:30080 and curl localhost:30081 to get pod info
