@@ -22,7 +22,7 @@
  
  Dockerfile
  
- Build the docker images and push it to docker hub.
+ * Build the docker images and push it to docker hub.
  
  ``` docker build -t poddata:tag-1 . ```
  
