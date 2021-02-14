@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: podinfoapp1-service
+  namespace: n1
+spec:
+  ports:
+  - name: podinfoapp1-service
+    port: 80
+    protocol: TCP
+  selector:
+    app: podinfoapp1
+
+    
