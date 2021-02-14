@@ -1,7 +1,7 @@
 # podinfo
 * Install eksctl and create a K8s cluser in aws using below command
 
-eksctl create cluster \
+eksctl create cluster /\
     --name eks-from-eksctl \
     --version 1.16 \
     --region us-west-2 \
