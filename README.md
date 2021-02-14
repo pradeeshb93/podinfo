@@ -31,7 +31,7 @@
  
  * Create the k8s objects using kubectl command.
  * Follow the same steps for objects in namespace n2.
- * app will scale based on cpu
+ * app will be scaled based on cpu
  
  Output
  
