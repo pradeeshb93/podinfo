@@ -19,7 +19,10 @@ eksctl create cluster \
  App
  
  * application is exposed using nginx and gunicorn. The app.py under app director is used to fetch the pod ip using python k8s client.
- * Build the docker images and push it to docker hub.
+ 
+ Dockerfile
+ 
+ Build the docker images and push it to docker hub.
  
  docker build -t poddata:tag-1 .
  
