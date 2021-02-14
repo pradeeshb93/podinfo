@@ -1,7 +1,7 @@
 # podinfo
 * Install eksctl and create a K8s cluser in aws using below command
 
-``` eksctl create cluster \
+ eksctl create cluster \
     --name eks-from-eksctl \
     --version 1.16 \
     --region us-west-2 \
@@ -13,7 +13,7 @@
     --ssh-access \
     --ssh-public-key ~/.ssh/eks-demo.pem.pub \
     --managed
-    ```
+    
  Configure eksctl and iam authenticator to get access to the cluster. 
  
  App
@@ -34,7 +34,6 @@
  * app will scale based on cpu
  
  Output
- =====
  
  * Get the worker node ip
  
