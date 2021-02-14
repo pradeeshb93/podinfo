@@ -1,2 +1,2 @@
 # podinfo
-. gg
+* gg
