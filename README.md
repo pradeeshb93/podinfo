@@ -1,7 +1,7 @@
 # podinfo
 * Install eksctl and create a K8s cluser in aws using below command
 
-eksctl create cluster \
+``` eksctl create cluster \
     --name eks-from-eksctl \
     --version 1.16 \
     --region us-west-2 \
@@ -13,7 +13,7 @@ eksctl create cluster \
     --ssh-access \
     --ssh-public-key ~/.ssh/eks-demo.pem.pub \
     --managed
-    
+    ```
  Configure eksctl and iam authenticator to get access to the cluster. 
  
  App
@@ -24,7 +24,7 @@ eksctl create cluster \
  
  Build the docker images and push it to docker hub.
  
- docker build -t poddata:tag-1 .
+ ``` docker build -t poddata:tag-1 . ```
  
  The image is available in https://hub.docker.com/r/pradeeshb/poddata
  
